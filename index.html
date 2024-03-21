@@ -122,7 +122,13 @@
 
             // Display current local time and time zone on HTML elements
             document.getElementById("clock").innerText = time;
+
+            // Run time data function every 1 second
+            setInterval(currentTime, 1000);
         }
+
+        // Initial run of time data function
+        currentTime();
     </script>
 </body>
 </html>
