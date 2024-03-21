@@ -301,3 +301,16 @@ input[type=submit] {
     text-align: center;
     padding-top: 10px;
 }
+
+/* Home */
+#clock {
+    color: #125688;
+}
+
+#timeofday {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #3a3a3a;
+    background: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
+    padding: 1.5em;
+}
